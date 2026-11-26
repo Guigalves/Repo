@@ -1,0 +1,17 @@
+{
+  "name": "panorama-noticias",
+  "version": "1.0.0",
+  "description": "Panorama — app de notícias com foco em Mundo, Estados Unidos e Brasil.",
+  "private": true,
+  "license": "MIT",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "build": "node scripts/build.js",
+    "test": "node --test test/*.test.js"
+  }
+}
